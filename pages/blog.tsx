@@ -7,7 +7,7 @@ type Props = {}
 
 function blog({}: Props) {
   return (
-    <div>
+    <div className='max-w-2xl mx-auto'>
       <Head>
         <title>tazes - Blog</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -15,7 +15,7 @@ function blog({}: Props) {
 
       <Header />
 
-    <div className='max-w-2xl flex mx-auto items-center justify-'>
+    <div className='max-w-2xl flex mx-auto items-center px-8'>
  
             <BackBtn />
 
