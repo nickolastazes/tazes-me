@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Header from '../Components/Header'
 
 const projects = [
   {
@@ -46,16 +47,17 @@ const projects = [
 
 const Home: NextPage = () => {
   return (
-<div className="py-16">
+<div className='flex flex-col mx-auto'>
       <Head>
         <title>tazes</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-    <div className="relative px-4 sm:px-6 lg:px-8">
-      <div className="text-lg max-w-2xl mx-auto">
+      <Header />
+
+    <div className="relative px-4 sm:px-4 lg:px-8 mt-6 lg:mt-10">
+      <div className="text-lg bg max-w-2xl mx-auto">
         <h1>
-          <span className="block text-left text-slate-100 font-semibold tracking-wide">Nickolas Tazes</span>
           <span className="mt-2 hidden lg:inline-block text-4xl text-left leading-8 font-extrabold tracking-tight text-slate-100">Founder of <a className="text-orange-500 hover:text-orange-700" href="https://readnet.gr" target="_blank">Readnet Publications</a></span>
           <span className="mt-2 block lg:hidden text-4xl text-left leading-8 font-extrabold tracking-tight text-slate-100">Founder of <a className="text-orange-500 hover:text-orange-700" href="https://readnet.gr" target="_blank">Readnet</a></span>
         </h1>
@@ -92,7 +94,7 @@ const Home: NextPage = () => {
 
     <div className="mt-16 max-w-2xl mx-auto"> 
       <h2 className='text-slate-100 font-semibold text-3xl'>Find me online</h2>
-      <div className='grid grid-cols-4 mt-6'>
+      <div className='grid grid-cols-2 space-y-1 mt-6'>
       <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://twitter.com/nickolas_tazes" target="_blank">Twitter &#8599;</a>
       <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://www.linkedin.com/in/nickolas-tazes/" target="_blank">LinkedIn &#8599;</a>
       <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://www.instagram.com/tazes.eth/" target="_blank">Instagram &#8599;</a>
@@ -160,15 +162,20 @@ const Home: NextPage = () => {
           <img className="w-full rounded-lg" src="/Screenshot 2022-09-27 at 5.11.15 PM.png" alt="The map of Greece with a pin at Volos" width="1310" height="873"/>
         </figure>
     </div>
-        
-    <div className="mt-16 max-w-2xl mx-auto">
-        <h2 className='text-slate-100 font-semibold text-3xl'>Contact me</h2>
-        <p className='mt-6 text-gray-300'> <a className="text-orange-500 hover:text-orange-700" href="mailto:hello@nickolastazes.com">Send me an email</a> to say hi, ask a question or propose something.</p>
-    </div>
 
         <figure className="mt-16 max-w-2xl mx-auto">
           <figcaption className="text-[#191919]">tazes.eth was here</figcaption>
         </figure>
+
+    <footer className='max-w-2xl flex mx-auto py-5 justify-between border-t border-[#292929]'>
+     <div className='text-sm text-gray-300'>
+      <span>You are free to fork this website.</span>
+      </div>
+      <div className='text-sm text-gray-300'>
+      &#169; 2022
+      </div>
+    </footer>
+
     </div>
   </div>
   )
