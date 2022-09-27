@@ -92,17 +92,27 @@ const Home: NextPage = () => {
 
     <div className="mt-16 max-w-2xl mx-auto"> 
       <h2 className='text-slate-100 font-semibold text-3xl'>Find me online</h2>
-      <div className='grid grid-cols-3 mt-6'>
+      <div className='grid grid-cols-4 mt-6'>
       <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://twitter.com/nickolas_tazes" target="_blank">Twitter &#8599;</a>
       <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://www.linkedin.com/in/nickolas-tazes/" target="_blank">LinkedIn &#8599;</a>
       <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://www.instagram.com/tazes.eth/" target="_blank">Instagram &#8599;</a>
+      <a className="text-orange-500 hover:bg-white hover:bg-opacity-5 px-1 py-2 rounded-lg" href="https://github.com/nickolastazes" target="_blank">Github &#8599;</a>
       </div>
     </div>
 
     <div className="mt-16 max-w-2xl mx-auto"> 
       <h2 className='text-slate-100 font-semibold text-3xl'>Interviews</h2>
-        <p className="mt-6 text-base text-gray-300 mx-auto">I have appeared in multiple Media outlets in Greece. Most notably:</p>
+        <p className="mt-6 text-base text-gray-300 mx-auto">I've about Readnet and myself on News sites, National TV and Podcasts.</p>
         <ul className='grid grid-cols-1 gap-2 mt-6 divide-y divide-[#292929]'>
+
+        <div className='hover:bg-white hover:bg-opacity-5 px-1 py-4 rounded-lg'>
+        <a className="text-orange-500" href="https://open.spotify.com/episode/0WNzPPCRCjlHOdC3A9AfTa" target="_blank">E1: Nick Tazes and Watchen.xyz
+        <div className='flex items-center space-x-2'>
+          <img className="h-4 w-4 rounded-lg" src="/ab67656300005f1f4c40899b480d39737d9d6818.jpeg" alt="Toools Podcast logo" />
+            <li className='text-gray-300 text-sm'>Toools Podcast</li>
+        </div>
+        </a> 
+        </div>
 
         <div className='hover:bg-white hover:bg-opacity-5 px-1 py-4 rounded-lg'>
         <a className="text-orange-500" href="https://www.youtube.com/watch?v=NOx7rtpBAgY" target="_blank">The Alearning platform for children with learning disabilities
@@ -146,8 +156,8 @@ const Home: NextPage = () => {
     <div className="mt-16 max-w-2xl mx-auto">
       <h2 className='text-slate-100 font-semibold text-3xl'>Where I live</h2>
         <figure className='mt-6 text-gray-300'>
-        <figcaption className='mb-2'>Based in Volos, Greece but traveling to Thessaloniki frequently.</figcaption>
-          <img className="w-full rounded-lg" src="/Screenshot 2022-07-14 at 9.52.36 PM.png" alt="The map of Greece with a pin at Volos" width="1310" height="873"/>
+        <figcaption className='mb-2'>Based in Thessaloniki, Greece but traveling to Volos and Athens frequently.</figcaption>
+          <img className="w-full rounded-lg" src="/Screenshot 2022-09-27 at 5.11.15 PM.png" alt="The map of Greece with a pin at Volos" width="1310" height="873"/>
         </figure>
     </div>
         
