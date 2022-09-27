@@ -18,12 +18,9 @@ function Header({}: Props) {
             <div className="mx-auto max-w-2xl px-4 md:px-0.5 lg:px-0.5">
               <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
                 <div className="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
-                  <div className="flex w-full items-center justify-between md:w-auto">
                     <a href="/">
                     <h1 className="block text-left text-slate-100 font-semibold tracking-wide">Nickolas Tazes</h1>
                     </a>
-
-                  </div>
                 </div>
                 <div className="md:flex space-x-3 md:absolute inset-y-0 right-0 items-center justify-end">
                   {navigation.map((item) => (
