@@ -5,7 +5,7 @@ type Props = {}
 
 function BackBtn({}: Props) {
   return (
-    <div className='backbtn'>
+    <div>
         <a href="/" className='backbtn'> <ChevronLeftIcon className='h-4 w-4'/>Back</a>
     </div>
   )

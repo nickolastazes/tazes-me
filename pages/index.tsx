@@ -47,7 +47,7 @@ const projects = [
 
 const Home: NextPage = () => {
   return (
-<div className='flex flex-col mx-auto'>
+<div>
       <Head>
         <title>tazes</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

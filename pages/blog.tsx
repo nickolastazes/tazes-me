@@ -7,22 +7,25 @@ type Props = {}
 
 function blog({}: Props) {
   return (
-    <div className='flex flex-col'>
-           <Head>
+    <div>
+      <Head>
         <title>tazes - Blog</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      
-        <Header />
-        <div className='mx-auto justify-start my-6 lg:mt-10 px-4 md:px-0.5 lg:px-0.5'>
+
+      <Header />
+
+    <div className='max-w-2xl flex mx-auto items-center justify-'>
+ 
             <BackBtn />
+
         </div>
 
-        <div className='mx-auto'>
+        <div className='mx-auto text-center py-16 max-w-2xl'>
             <p className='text-base text-gray-300'>No posts here, yet...</p>
         </div>
- 
-    </div>
+
+      </div>
   )
 }
 
