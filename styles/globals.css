@@ -26,11 +26,6 @@ body {
     transform: translateZ(0);
 }
 
-.navbar {
-    background: rgba(25, 25, 25, 0.04);
-    backdrop-filter: blur(5px);
-}
-
 @layer components {
     .backbtn {
         @apply flex text-sm items-center space-x-1 text-slate-100 rounded-lg border border-zinc-600 py-1 pr-2.5 pl-1 hover:border-orange-700

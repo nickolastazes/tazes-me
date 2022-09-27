@@ -47,7 +47,7 @@ const projects = [
 
 const Home: NextPage = () => {
   return (
-<div>
+<div className='max-w-2xl mx-auto'>
       <Head>
         <title>tazes</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
