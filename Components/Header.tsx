@@ -25,7 +25,7 @@ function Header({}: Props) {
 
                   </div>
                 </div>
-                <div className="md:flex space-x-3 md:space-x-10 md:absolute md:inset-y-0 md:right-0 md:items-center md:justify-end">
+                <div className="md:flex space-x-3 md:absolute inset-y-0 right-0 items-center justify-end">
                   {navigation.map((item) => (
                     <a key={item.name} href={item.href} className="text-slate-100 hover:text-orange-700">
                       {item.name}
