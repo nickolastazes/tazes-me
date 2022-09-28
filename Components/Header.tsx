@@ -9,7 +9,7 @@ function Header({}: Props) {
           <nav className='max-w-2xl flex mx-auto items-center justify-between'>
 
             <a href='/' className='text-lg flex font-semibold text-slate-100'>
-            <span>Website name</span>
+            <span>Nickolas Tazes</span>
             </a>
             <div className='text-base flex text-orange-500 space-x-4'>
             <a href="/blog" className='hover:text-orange-700'>Blog</a>
