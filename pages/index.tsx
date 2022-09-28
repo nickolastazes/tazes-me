@@ -167,7 +167,7 @@ const Home: NextPage = () => {
           <figcaption className="text-[#191919]">tazes.eth was here</figcaption>
         </figure>
 
-    <footer className='max-w-2xl flex mx-auto py-5 justify-between border-t border-[#292929]'>
+    <footer className='max-w-2xl flex mx-auto py-8 lg:py-6 justify-between border-t border-[#292929]'>
      <div className='text-sm text-gray-300'>
       <span>You are free to fork this website.</span>
       </div>

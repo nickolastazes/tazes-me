@@ -6,9 +6,9 @@ function Header({}: Props) {
   return (
     <div className='flex flex-col mx-auto py-5'>
       <div className="relative px-4 sm:px-4 lg:px-8">
-          <nav className='max-w-2xl flex mx-auto items-center'>
+          <nav className='max-w-2xl flex mx-auto items-center space-x-7'>
 
-            <a href='/' className='text-lg flex font-semibold text-slate-100 mr-6'>
+            <a href='/' className='text-lg flex font-semibold text-slate-100'>
             <span>Nickolas Tazes</span>
             </a>
             <div className='text-base flex text-orange-500 space-x-4'>
