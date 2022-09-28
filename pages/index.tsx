@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Header from '../components/Header'
 
 const projects = [
   {
@@ -52,7 +53,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      
+      <Header />
 
     <div className="relative px-4 sm:px-4 lg:px-8 mt-6 lg:mt-10">
       <div className="text-lg bg max-w-2xl mx-auto">
