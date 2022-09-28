@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react'
-import BackBtn from '../components/BackBtn'
 import Header from '../components/Header'
 
 
@@ -18,7 +17,7 @@ function blog({}: Props) {
 
     <div className='max-w-2xl flex mx-auto items-center px-8'>
  
-            <BackBtn />
+            
 
         </div>
 
