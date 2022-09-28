@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import BackBtn from '../Components/BackBtn'
-import Header from '../Components/Header'
+import BackBtn from '../components/BackBtn'
+import Header from '../components/Header'
 
 type Props = {}
 
