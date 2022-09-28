@@ -3,6 +3,7 @@ import React from 'react'
 import BackBtn from '../components/BackBtn'
 import Header from '../components/Header'
 
+
 type Props = {}
 
 function blog({}: Props) {
