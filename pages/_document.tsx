@@ -17,7 +17,7 @@ class MyDocument extends Document {
             <meta property="og:type" content="website"/>
             <meta property="og:url" content="https://tazes.me"/>
             <meta property="og:image" content="/ogpersonal.png"/>
-            <link rel="icon" href="/dog-face_1f436.png"/>
+            <link rel="icon" href="/Group 219.png"/>
             <meta name="twitter :site" content="@nickolas_tazes" />
             <meta name= "twitter:creator" content="@nickolas_tazes"/>
             <meta property="og:url" content=" https://tazes.me"/>
