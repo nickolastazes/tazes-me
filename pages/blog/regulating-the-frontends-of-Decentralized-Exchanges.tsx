@@ -12,6 +12,19 @@ function regulating_the_frontends_of_Decentralized_Exchanges({}: Props) {
     <Head>
       <title>Regulating the frontends of Decentralized Exchanges - Blog</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta property="og:title" content="Regulating the frontends of Decentralized Exchanges - Blog"/>
+            <meta property="og:description" content="Nickolas Tazes' Blog"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="https://tazes.me/blog/regulating-the-frontends-of-Decentralized-Exchanges"/>
+            <meta property="og:image" content="https://tazes.me/Regulating%20the%20frontends%20of%20Decentralized%20Exchanges.png"/>
+            <meta name="twitter :site" content="@nickolas_tazes" />
+            <meta name= "twitter:creator" content="@nickolas_tazes"/>
+            <meta property="og:url" content=" https://tazes.me/blog/regulating-the-frontends-of-Decentralized-Exchanges"/>
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta name="twitter:image:alt" content="An image of space with the article's title."/>
+            <meta name="twitter:title" content="Regulating the frontends of Decentralized Exchanges - Blog"/>
+            <meta name="twitter:description" content="Nickolas Tazes' Blog"/>
+            <meta name="twitter:image" content="https://tazes.me/Regulating%20the%20frontends%20of%20Decentralized%20Exchanges.png"/>
     </Head>
 
     <Header />
