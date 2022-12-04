@@ -13,7 +13,7 @@ function Header({}: Props) {
   return (
 <nav className='py-5'>
     <Popover>
-            <div className="mx-auto max-w-2xl relative px-4 sm:px-4 lg:px-8">
+            <div className="mx-auto max-w-2xl relative px-4 lg:px-8">
               <nav className="relative flex items-center justify-between sm:h-10 md:justify-end" aria-label="Global">
                 <div className="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
                   <div className="flex w-full items-center justify-between md:w-auto">

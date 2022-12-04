@@ -6,7 +6,7 @@ type Props = {}
 function Test({}: Props) {
   return (
     <div>
-        <a href="/" className='flex text-sm items-center space-x-1 text-slate-100 rounded-lg border border-zinc-700 hover:border-orange-500 py-1 pr-2.5 pl-1'> <ChevronLeftIcon className='h-4 w-4'/>Back</a>
+        <a href="/" className='flex text-sm items-center text-slate-100 rounded-lg border border-zinc-700 hover:border-orange-500 py-1 pr-2.5 pl-1'> <ChevronLeftIcon className='h-4 w-4'/>Back</a>
     </div>
   )
 }
