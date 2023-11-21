@@ -74,7 +74,7 @@ const Home: NextPage = () => {
 						<div className='animate-ping rounded-full bg-green-500 h-[8px] w-[8px] inline-block mr-2 absolute' />
 						<div className='rounded-full bg-green-500 h-[8px] w-[8px] inline-block mr-2' />
 						<p className='text-neutral-300 text-sm'>
-							Actively looking for angel investments.
+							Open to invest in consumer & crypto startups.
 						</p>
 					</div>
 					<div className='text-lg max-w-2xl mx-auto'>
