@@ -14,15 +14,22 @@ function MyApp({ Component, pageProps }: AppProps) {
 				/>
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://tazes.me' />
-				<meta property='og:image' content='https://tazes.me/tazes-og.png' />
+				<meta
+					property='og:image'
+					content='https://tazes.me/nickolastazes-og.png'
+				/>
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='twitter:site' content='@nickolas_tazes' />
 				<meta name='twitter:title' content='Nickolas Tazes' />
+				<meta name='twitter:creator' content='@nickolas_tazes' />
 				<meta
 					name='twitter:description'
 					content='Founder of Readnet Publications. Since the start of 2020, I have envisioned, organized, developed, and launched a series of innovative projects. My goal is to solve some of the biggest sociNickolas Tazes'
 				/>
-				<meta name='twitter:image' content='https://tazes.me/tazes-og.png' />
+				<meta
+					name='twitter:image'
+					content='https://tazes.me/nickolastazes-og.png'
+				/>
 				<meta
 					name='viewport'
 					content='width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no'
