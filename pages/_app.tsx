@@ -8,6 +8,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<Head>
 				<title>Nickolas Tazes</title>
 				<meta property='og:title' content='Nickolas Tazes' />
+				<meta property='og:site_name' content='Nickolas Tazes - Founder' />
+				<link rel='icon' href='/favicon.png' />
 				<meta
 					property='og:description'
 					content='Founder of Readnet Publications. Since the start of 2020, I have envisioned, organized, developed, and launched a series of innovative projects. My goal is to solve some of the biggest social & economical problems in the world.'
