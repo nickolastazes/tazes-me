@@ -52,7 +52,7 @@ const projects = [
 const Home: NextPage = () => {
 	const [isLoading, setLoading] = useState(true);
 	const { ref } = useScramble({
-		text: 'Since the start of 2020, I have envisioned, organized, developed, and launched a series of innovative projects. My goal is to solve some of the biggest social & economical problems in the world. The list of projects includes:',
+		text: 'I consider myself a technologist. Since the start of 2020, I have envisioned, organized, developed, and launched a series of innovative projects. My goal is to solve some of the biggest social & economical problems in the world. The list of projects includes:',
 		speed: 2,
 		tick: 1,
 		scramble: 4,
