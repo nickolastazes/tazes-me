@@ -8,7 +8,6 @@ type Props = {};
 const navigation = [
 	//{ name: 'Schedule a call', href: 'https://cal.com/tazes/general' },
 	{ name: 'Blog', href: '/blog' },
-	{ name: 'Contact', href: 'mailto:n@tazes.me' },
 ];
 
 function Header({}: Props) {
