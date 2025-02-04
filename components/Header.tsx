@@ -39,7 +39,7 @@ function Header({}: Props) {
 						</div>
 						<div className='hidden md:flex md:space-x-5'>
 							{navigation.map((item) => (
-								<span className='font-medium link'>
+								<span key={item.name} className='font-medium link'>
 									<Link key={item.name} href={item.href} target='_blank'>
 										{item.name}
 									</Link>

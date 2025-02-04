@@ -90,8 +90,8 @@ const Home: NextPage = () => {
 					<div>
 						<div className='mt-6 mx-auto max-w-2xl'>
 							{projects.map((project) => (
-								<div key={project.link} className=''>
-									<a href={project.link}>
+								<div key={project.link}>
+									<a href={project.link} target='_blank'>
 										<div className='flex space-x-4 lg:hover:bg-white lg:hover:bg-opacity-5 px-1 py-4'>
 											<div className='flex-shrink-0 '>
 												<Image
@@ -117,7 +117,6 @@ const Home: NextPage = () => {
 													{project.handle}
 												</p>
 											</div>
-											<div></div>
 										</div>
 									</a>
 									<div className='flex justify-center'>
@@ -131,7 +130,7 @@ const Home: NextPage = () => {
 
 				<div className='mt-16 max-w-2xl mx-auto'>
 					<h2 className='text-slate-100 font-bold text-3xl'>Connect</h2>
-					<div className='flex space-x-3 mt-6'>
+					<div className='grid grid-cols-1 md:grid-cols-2 gap-2 mt-6'>
 						<a
 							className='link lg:hover:bg-white lg:hover:bg-opacity-5 px-2 py-3 rounded-lg'
 							href='https://twitter.com/nickolas_tazes'
@@ -144,7 +143,12 @@ const Home: NextPage = () => {
 							target='_blank'>
 							Github &#8599;
 						</a>
-
+						<a
+							className='link lg:hover:bg-white lg:hover:bg-opacity-5 px-2 py-3 rounded-lg'
+							href='https://warpcast.com/tazes'
+							target='_blank'>
+							Farcaster &#8599;
+						</a>
 						<a
 							className='link lg:hover:bg-white lg:hover:bg-opacity-5 px-2 py-3 rounded-lg'
 							href='https://www.instagram.com/nickolas_tazes/'
