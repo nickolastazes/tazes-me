@@ -71,7 +71,7 @@ const Home: NextPage = () => {
 				<div className=''>
 					<div className='text-lg max-w-2xl mx-auto'>
 						<h1>
-							<span className='mt-2 hidden lg:inline-block text-4xl text-left leading-8 font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-slate-100/60 via-slate-100 to-slate-100'>
+							<span className='mt-2 text-4xl text-left leading-8 font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-slate-100/60 via-slate-100 to-slate-100'>
 								Founder of
 							</span>
 							<span className='mt-2 text-4xl text-left leading-8 font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-slate-100/60 via-slate-100 to-slate-100'>
